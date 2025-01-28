@@ -19,4 +19,4 @@ O **HLP** é a biblioteca central de funções auxiliares (helpers) para o siste
 ### **1. Clonando o Repositório**
 Adicione o HLP como um submódulo ao seu projeto:
 ```bash
-git submodule add https://github.com/seu-usuario/HLP modules/hlp
+git submodule add https://github.com/guilhermevang/HLP modules/hlp
