@@ -12,7 +12,7 @@ O **HLP** é a biblioteca central de funções auxiliares (helpers) para o siste
   - `HLP_LogError(const char *format, ...)`: Logs para mensagens de erro.
 
 - **Extensível**:
-  - Projetado para ser integrado a múltiplos projetos do cAM-Sys, como AHCR, ACDW, etc.
+  - Projetado para ser integrado a múltiplos projetos do cAM-Sys, como ACR, ACW, etc.
 
 ## **Instalação**
 
