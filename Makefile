@@ -10,6 +10,7 @@ TEST_EXEC = cam_hlp_tests
 # Comandos
 CMAKE = cmake
 MAKE = make
+CTEST = ctest
 
 # Alvo padrão (build)
 .PHONY: all
@@ -26,10 +27,15 @@ build:
 run: build
 	@$(BUILD_DIR)/$(EXEC)
 
-# Rodar os testes
+# Rodar os testes usando CTest
 .PHONY: test
 test: build
-	@$(BUILD_DIR)/$(TEST_EXEC)
+	@cd $(BUILD_DIR) && $(CTEST)
+
+# Rodar os testes com detalhes (verbose)
+.PHONY: test-verbose
+test-verbose: build
+	@cd $(BUILD_DIR) && $(CTEST) --verbose
 
 # Limpar arquivos gerados
 .PHONY: clean
