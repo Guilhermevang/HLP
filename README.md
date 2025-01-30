@@ -1,4 +1,4 @@
-# HLP - Core Helper Library for cAM-Sys
+# HLP - Helper Library for cAM-Sys
 
 O **HLP** é a biblioteca central de funções auxiliares (helpers) para o sistema **cAM-Sys**. Ele foi projetado para fornecer utilitários reutilizáveis e seguros para projetos modulares em C, com foco em confiabilidade, desempenho e boas práticas.
 
